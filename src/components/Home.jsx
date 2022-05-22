@@ -4,6 +4,9 @@ import Carousel from "./Carousel";
 import ContactForm from "./contacto";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from './perfil-empty.png';
+import ContactForm from "./contacto";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Home() {
   
   return (
@@ -62,8 +65,13 @@ function Home() {
               </div>
         </div>
         <div className="py-6">
+          <div className="py-6">
           <ContactForm />
         </div>
+         
+         
+        </div>
+        
       </div>
       
     </div>
