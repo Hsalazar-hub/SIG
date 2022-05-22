@@ -1,6 +1,15 @@
 import React from "react";
 import Banner from "./Banner";
-
+import Carousel from "./Carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+import ContactForm from "./contacto";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   
@@ -8,6 +17,7 @@ function Home() {
     <React.Fragment>
 
   <Banner/>
+  
   <div className="container p-3">
     <div className="home">
       <div class="container">
@@ -29,14 +39,20 @@ function Home() {
           </div>
           <div class="col-lg-6">
             <h1 class="font-weight-light">
-              Instituciones
+              Instituciones que promueven el uso de Sistemas de SIGS
             </h1>
-            <p>
-              
-            </p>
+            <Carousel/>
           </div>
+
+          <div className="py-6">
+          <ContactForm />
         </div>
+         
+         
+        </div>
+        
       </div>
+      
     </div>
     </div>
   </React.Fragment>

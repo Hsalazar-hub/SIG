@@ -15,6 +15,28 @@ a {
   text-decoration: none;
   color: black;
 }
+a.social {
+  margin: 0 0.5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.youtube {
+  color: whitesmoke;
+}
+
+a.facebook {
+  color: whitesmoke;
+}
+
+a.twitter {
+  color: whitesmoke;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.instagram {
+  color: whitesmoke;
+}
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
