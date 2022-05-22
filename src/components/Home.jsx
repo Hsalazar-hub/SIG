@@ -1,7 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
 import Carousel from "./Carousel";
-import ContactForm from "./contacto";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from './perfil-empty.png';
 import ContactForm from "./contacto";
