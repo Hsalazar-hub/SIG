@@ -27,7 +27,10 @@ a.youtube {
 a.facebook {
   color: whitesmoke;
 }
-
+div.row {
+  justify-content:center;
+  text-align:center
+}
 a.twitter {
   color: whitesmoke;
 }
