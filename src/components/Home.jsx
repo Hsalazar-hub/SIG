@@ -1,5 +1,7 @@
 import React from "react";
-
+import Banner from "./Banner";
+import ContactForm from "./contacto";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   
@@ -7,6 +9,7 @@ function Home() {
     <React.Fragment>
 
   <Banner/>
+  
   <div className="container p-3">
     <div className="home">
       <div class="container">
@@ -26,16 +29,15 @@ function Home() {
               Este sitio web fue diseñado con la intencion de dar a conocer más información sobre los Sistemas de Información Geográfica, así como una manera de evaluación de nuestros conocimientos de los mismos.
             </p>
           </div>
-          <div class="col-lg-6">
-            <h1 class="font-weight-light">
-              Instituciones
-            </h1>
-            <p>
-              
-            </p>
-          </div>
+          <div className="py-6">
+          <ContactForm />
         </div>
+         
+         
+        </div>
+        
       </div>
+      
     </div>
     </div>
   </React.Fragment>
