@@ -27,9 +27,11 @@ const ContactForm = () => {
               <Form.Label>Comentarios:</Form.Label>
               <Form.Control type="text" placeholder="Comentarios" />
             </Form.Group>
+            <hr></hr>
             <Button variant="primary" type="submit">
               Enviar
             </Button>
+            
           </Form>
         </div>
       );
