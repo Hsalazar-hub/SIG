@@ -32,6 +32,7 @@ function Home() {
               Este sitio web fue diseñado con la intencion de dar a conocer más información sobre los Sistemas de Información Geográfica, así como una manera de evaluación de nuestros conocimientos de los mismos.
             </p>
           </div>
+
           
          <h2 >CONOCÉ A NUESTRO EQUIPO DE INVESTIGADORES</h2>
         </div>
@@ -58,6 +59,7 @@ function Home() {
                 <p>títulos académicos y experiencia profesional</p>  
               </div>
         </div>
+        <hr></hr>
         <div class="row">
           <div class="col-lg-7">
             <h1>
@@ -69,7 +71,7 @@ function Home() {
           <ContactForm />
           </div>
         
-         
+          <hr></hr>
          
         </div>
         
@@ -77,6 +79,7 @@ function Home() {
       
     </div>
     </div>
+    
   </React.Fragment>
 
   );
