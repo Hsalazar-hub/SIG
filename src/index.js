@@ -15,6 +15,7 @@ import {
   Posts,
   Post,
   Banner,
+  ScrollButton,
   ContactForm
 } from "./components";
 
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/contacto" element={<ContactForm />} />
       <Route path="/Banner" element={<Banner />} />
+      <Route path="/ScrollButton" element={<ScrollButton />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

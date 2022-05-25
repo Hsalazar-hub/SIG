@@ -5,12 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from './perfil-empty.png';
 import ContactForm from "./contacto";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollButton from './ScrollButton';
 
 function Home() {
   
   return (
     <React.Fragment>
-
+      
+      <ScrollButton />
   <Banner/>
   
   <div className="container p-3">

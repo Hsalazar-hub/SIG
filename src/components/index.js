@@ -8,4 +8,6 @@ export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
 export { default as Banner } from "./Banner";
 export { default as ContactForm } from "./contacto";
+export { default as ScrollButton } from "./ScrollButton";
+
 

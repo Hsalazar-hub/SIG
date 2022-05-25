@@ -16,22 +16,22 @@ function Footer() {
             Copyright &copy; Sitio Web Sobre SIG. 
             Creado Por Héctor Salazar, Lewis Narváez y Wuilmer Pulgar.   
               Siguenos: 
-            <a href="https://www.youtube.com"
+            <a href="https://www.youtube.com"  target="_blank"
                   className="youtube social">
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
                 </a>
-                <a href="https://www.facebook.com"
+                <a href="https://www.facebook.com" target="_blank"
                   className="facebook social">
                   <FontAwesomeIcon icon={faFacebook} size="1x" />
                 </a>
-                <a href="https://www.twitter.com" className="twitter social">
+                <a href="https://www.twitter.com" target="_blank" className="twitter social">
                   <FontAwesomeIcon icon={faTwitter} size="1x" />
                 </a>
-                <a href="https://www.instagram.com"
+                <a href="https://www.instagram.com" target="_blank"
                   className="instagram social">
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
                 </a>   
-                <a href="https://www.Linkedin.com"
+                <a href="https://www.Linkedin.com" target="_blank"
                   className="instagram social">
                   <FontAwesomeIcon icon={faLinkedin} size="1x" />
                 </a>   
