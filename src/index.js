@@ -11,11 +11,10 @@ import {
   Home,
   About,
   Contact,
-  Blog,
-  Posts,
-  Post,
+  Aplicaciones,
   Banner,
   ScrollButton,
+  Actualidad,
   ContactForm
 } from "./components";
 
@@ -29,11 +28,10 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/contacto" element={<ContactForm />} />
       <Route path="/Banner" element={<Banner />} />
+      <Route path="/Actualidad" element={<Actualidad />} />
+      <Route path="/Aplicaciones" element={<Aplicaciones />} />
       <Route path="/ScrollButton" element={<ScrollButton />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
-      </Route>
+      
     </Routes>
     <Footer />
   </Router>,

@@ -2,7 +2,9 @@ import React from "react";
 import Banner from "./Banner";
 import Carousel from "./Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from './perfil-empty.png';
+import hector from './hector.jpg';
+import lewis from './lewis.jpg';
+import wuilmer from './wuilmer.jpg';
 import ContactForm from "./contacto";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollButton from './ScrollButton';
@@ -41,21 +43,21 @@ function Home() {
           <div class="row" >
                <div class="col-md-3 col-sm-3">
                 <div className="image">
-                  <img src={Image} />
+                  <img src={hector} />
                 </div>
                 <h3>Héctor Salazar</h3>
                 <p>Estudiante de informática de la UDONE. Experiencia en PHP, ReactJs, y NodeJs.</p>  
               </div>
               <div class="col-md-3 col-sm-3">
                 <div className="image">
-                  <img src={Image} />
+                  <img src={wuilmer} />
                 </div>
                 <h3>Wuilmer Pulgar</h3>
                 <p>Estudiante de informática de la UDONE. Experiencia en PHP, NodeJs, ReactJs.</p>  
               </div>
               <div class="col-md-3 col-sm-3">
                 <div className="image">
-                  <img src={Image} />
+                  <img src={lewis} />
                 </div>
                 <h3>Lewis Narváez</h3>
                 <p>Estudiante de informática de la UDONE. Experiencia en PHP, NodeJs, Java y Python.</p>  

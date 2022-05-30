@@ -1,6 +1,7 @@
 import React from "react";
-import Geo from './Geocomp.jpg'
-function About() {
+
+import act from './actualidad.png'
+function Actualidad() {
   return (
     
     <div className="about">
@@ -16,7 +17,7 @@ function About() {
           </div>
           <div class="float-left">
             <img  
-              src ={Geo} className="float-left"></img>
+              src ={act} className="float-left"></img>
           </div>
           <div class="col-lg-5">
             
@@ -44,4 +45,4 @@ function About() {
   );
 }
 
-export default About;
+export default Actualidad;
