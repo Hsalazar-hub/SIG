@@ -1,9 +1,12 @@
 import React from "react";
 
-import act from './actualidad.png'
+import act from './actualidad.png';
+import ScrollButton from './ScrollButton'
 function Aplicaciones() {
   return (
-    
+    <React.Fragment>
+      
+      <ScrollButton />
     <div className="about">
       
       <div class="container">
@@ -21,7 +24,7 @@ function Aplicaciones() {
           </div>
           <div class="col-lg-5">
             
-            <h1 class="font-weight-light">Aplicaciones</h1>
+            <h1 class="font-weight-light">Aplicaciones de los SIG</h1>
             
             <h1 class="font-weight-light">Cartografía automatizada</h1>
             <p>
@@ -68,7 +71,7 @@ alfanumérica.
         </div>
       </div>
     </div>
-  
+    </React.Fragment>
   );
 }
 

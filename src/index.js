@@ -15,6 +15,7 @@ import {
   Banner,
   ScrollButton,
   Actualidad,
+  Galeria,
   ContactForm
 } from "./components";
 
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/contacto" element={<ContactForm />} />
       <Route path="/Banner" element={<Banner />} />
+      <Route path="/Galeria" element={<Galeria />} />
       <Route path="/Actualidad" element={<Actualidad />} />
       <Route path="/Aplicaciones" element={<Aplicaciones />} />
       <Route path="/ScrollButton" element={<ScrollButton />} />
